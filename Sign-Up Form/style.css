@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Norse;
+    font-weight : bold;
+    src: url(./Resources/Norse-Bold.otf) format("opentype") ;
+}
+body {
+    display : flex;
+    padding : 0;
+    margin : 0;
+    border : 0;
+}
+
+div.logo-container {
+    display : flex;
+    flex-direction : column;
+    min-width : 200px;
+    min-height : 150px;
+    width : 30vw;
+    height : 100vh;
+    background-image : url(./Resources/Leaf\ background.jpg);
+    background-size : auto 100vh;
+}
+
+div.transparent {
+    display : flex;
+    justify-content: center;
+    width : auto;
+    height : 20vh;
+    background-color :rgba(30, 26, 26, 0.647);
+    margin-top : 20vh;
+    font-family : Norse;
+    color : white;
+    font-size : 3rem
+}
+
+.logo {
+    align-self : flex-start;
+    height : 100%;
+    width : auto;
+}
+
+.transparent>h1 {
+    align-self: center;
+}
+
+.logo-container>.footer {
+    margin-top : auto;
+    font-family: 'Times New Roman', Times, serif;
+    color : white;
+    text-align: center;
+}
+
+.footer>a {
+    color : inherit;
+}
