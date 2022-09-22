@@ -73,6 +73,8 @@ div.transparent {
 }
 
 .form-content>.form-container {
+    padding-top: 5px;
+    padding-bottom: 15px;
     padding-left: 25px;
     box-shadow: 0 0 3px rgb(167, 166, 166);
 }
