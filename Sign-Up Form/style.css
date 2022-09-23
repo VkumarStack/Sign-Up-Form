@@ -3,6 +3,7 @@
     font-weight : bold;
     src: url(./Resources/Norse-Bold.otf) format("opentype") ;
 }
+
 body {
     display : flex;
     padding : 0;
@@ -10,7 +11,7 @@ body {
     border : 0;
 }
 
-div.logo-container {
+.logo-container {
     display : flex;
     flex-direction : column;
     min-width : 200px;
@@ -21,7 +22,7 @@ div.logo-container {
     background-size : auto 100vh;
 }
 
-div.transparent {
+.transparent {
     display : flex;
     justify-content: center;
     width : auto;
@@ -92,7 +93,7 @@ div.transparent {
 }
 
 
-div.form-container h1 {
+.form-container h1 {
     font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -156,7 +157,7 @@ form input:focus:invalid, form input:focus.invalid {
     box-shadow: 0 0 2px rgb(223, 51, 20);
 }
 
-div.form-item input:focus:invalid+p, div.form-item input:focus.invalid+p {
+.form-item input:focus:invalid+p, .form-item input:focus.invalid+p {
     visibility: visible;
 }
 
