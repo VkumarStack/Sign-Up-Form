@@ -31,7 +31,7 @@ body {
     margin-top : 20vh;
     font-family : Norse;
     color : white;
-    font-size : 3rem
+    font-size : 3rem;
 }
 
 .logo {
@@ -164,7 +164,7 @@ form input:focus:invalid, form input:focus.invalid {
 .form-content .footer {
     padding-top: 2.5%;
     padding-left: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .form-content .footer button {
