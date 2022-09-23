@@ -1,7 +1,7 @@
 @font-face {
     font-family: Norse;
-    font-weight : bold;
-    src: url(./Resources/Norse-Bold.otf) format("opentype") ;
+    font-weight: bold;
+    src: url(./Resources/Norse-Bold.otf) format("opentype");
 }
 
 body {
