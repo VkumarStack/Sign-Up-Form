@@ -1,7 +1,7 @@
 @font-face {
     font-family: Norse;
     font-weight: bold;
-    src: url(./Resources/Norse-Bold.otf) format("opentype");
+    src: url("./Resources/Norse-Bold.otf") format("opentype");
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     min-height : 150px;
     width : 30vw;
     height : 100vh;
-    background-image : url(./Resources/Leaf\ background.jpg);
+    background-image : url("./Resources/Leaf\ background.jpg");
     background-size : auto 100vh;
 }
 
